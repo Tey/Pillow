@@ -1,4 +1,5 @@
 name: Pyodide Build
+on: [workflow_dispatch]
 jobs:
   Pyodide-Build:
     runs-on: ubuntu-latest
