@@ -4,7 +4,7 @@ jobs:
   Pyodide-Build:
     runs-on: ubuntu-latest
     steps:
-      - run: sudo apt-get install -y libjpeg-dev zlib-dev libtiff-dev libfreetype-dev littlecms-dev libwebp-dev
+      - run: sudo apt-get install -y libjpeg-dev zlib1g-dev libtiff-dev libfreetype-dev liblcms2-dev libwebp-dev
       - uses: actions/checkout@v3
       - uses: actions/setup-python@v4
         with:
